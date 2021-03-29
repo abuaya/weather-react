@@ -11,6 +11,7 @@ let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&ap
 
 axios.get(apiUrl).then(handleResponse);
   return <h2>
-     Hello
+     Hello there
+    
   </h2>;
 }
